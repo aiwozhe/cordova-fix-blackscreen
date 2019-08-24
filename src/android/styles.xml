@@ -1,6 +1,8 @@
 <resources>
-    <style name="Background" parent="@android:style/Theme.AppCompat.Light">
+    <style name="Background" parent="@android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:windowBackground">@drawable/screen</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
     </style>
