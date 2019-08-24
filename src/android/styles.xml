@@ -1,12 +1,7 @@
 <resources>
     <style name="Background" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:windowBackground">
-            <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-                android:gravity="top"
-                android:src="@drawable/screen"
-                android:tileMode="disabled">
-            </bitmap>
-        </item>
+        <item name="android:windowBackground">@drawable/screen</item>
+        <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
     </style>
