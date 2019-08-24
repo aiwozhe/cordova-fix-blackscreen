@@ -3,5 +3,9 @@
     <style name="BlackFullScreen" parent="@android:Theme.Light.NoTitleBar.Fullscreen"></style>
     <style name="TranslucentFullScreen" parent="android:Theme.Translucent.NoTitleBar.Fullscreen"></style>
     <style name="WallpaperFullScreen" parent="@android:Theme.Wallpaper.NoTitleBar.Fullscreen"></style>
-    <style name="BackgroundFullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"></style>
+    <style name="BackgroundFullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item> 
+        <item name="android:windowBackground">@drawable/screen</item>
+    </style>
 </resources>
